@@ -6,11 +6,18 @@ const udesLogger = pino({
   },
 })
 
-udesLogger.fatal = () => {}
-udesLogger.error = () => {}
-udesLogger.warn = () => {}
-udesLogger.info = () => {}
-udesLogger.debug = () => {}
-udesLogger.trace = () => {}
+/**
+ * udesLogger
+ * @typedef {Object} udesLogger
+ * @property {function(string)} trace
+ * @property {function(string)} debug
+ * @property {function(string)} info
+ * @property {function(string)} warn
+ * @property {function(string)} error
+ * @property {function(string)} fatal
+ */
 
+/**
+ * @type {udesLogger}
+ */
 export default udesLogger

@@ -1,6 +1,6 @@
 {
   "name": "udes-logger",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "description": "Udes app logger using Pino",
   "main": "distribution/index.js",
   "scripts": {

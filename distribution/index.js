@@ -16,11 +16,17 @@ var udesLogger = (0, _pino2.default)({
   }
 });
 
-udesLogger.fatal = function () {};
-udesLogger.error = function () {};
-udesLogger.warn = function () {};
-udesLogger.info = function () {};
-udesLogger.debug = function () {};
-udesLogger.trace = function () {};
+/**
+ * udesLogger
+ * @typedef {Object} udesLogger
+ * @property {function(string)} trace
+ * @property {function(string)} debug
+ * @property {function(string)} info
+ * @property {function(string)} warn
+ * @property {function(string)} error
+ */
 
+/**
+ * @type {udesLogger}
+ */
 exports.default = udesLogger;
