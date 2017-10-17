@@ -1,0 +1,12 @@
+{
+  "name": "udes-logger",
+  "version": "0.0.1",
+  "description": "Udes app logger using Pino",
+  "main": "index.js",
+  "scripts": {},
+  "author": "JF Belisle <jfbelisle89@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "pino": "4.7.2"
+  }
+}
