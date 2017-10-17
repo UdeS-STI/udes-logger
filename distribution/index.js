@@ -16,4 +16,11 @@ var udesLogger = (0, _pino2.default)({
   }
 });
 
+udesLogger.fatal = function () {};
+udesLogger.error = function () {};
+udesLogger.warn = function () {};
+udesLogger.info = function () {};
+udesLogger.debug = function () {};
+udesLogger.trace = function () {};
+
 exports.default = udesLogger;
