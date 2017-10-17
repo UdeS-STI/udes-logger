@@ -24,6 +24,7 @@ var udesLogger = (0, _pino2.default)({
  * @property {function(string)} info
  * @property {function(string)} warn
  * @property {function(string)} error
+ * @property {function(string)} fatal
  */
 
 /**
