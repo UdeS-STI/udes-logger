@@ -1,8 +1,9 @@
 import pino from 'pino'
 
-export udesLogger = pino({
+const udesLogger = pino({
   prettyPrint: {
     forceColor: true,
-  }
+  },
 })
 
+export default udesLogger
