@@ -20,4 +20,6 @@ const udesLogger = pino({
 /**
  * @type {udesLogger}
  */
-export default udesLogger
+module.exports = {
+  udesLogger,
+}

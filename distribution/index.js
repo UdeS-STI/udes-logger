@@ -1,9 +1,5 @@
 'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
 var _pino = require('pino');
 
 var _pino2 = _interopRequireDefault(_pino);
@@ -30,4 +26,6 @@ var udesLogger = (0, _pino2.default)({
 /**
  * @type {udesLogger}
  */
-exports.default = udesLogger;
+module.exports = {
+  udesLogger: udesLogger
+};
