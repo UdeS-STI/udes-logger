@@ -1,4 +1,8 @@
-# udes-logger
+UdeS Logger
+=============================
+[![npm](https://img.shields.io/npm/v/udes-logger.svg?style=flat-square)](https://www.npmjs.com/package/udes-logger)
+![Node](https://img.shields.io/badge/node-6.10.1-brightgreen.svg)
+
 Udes app logger using Pino
 
 ## Installation
