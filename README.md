@@ -6,6 +6,7 @@ Udes app logger using Pino
 
 ## Usage
 `import udesLogger from 'udes-logger'`
+
 `udesLogger.info('Log this')`
 
 ## Available function
