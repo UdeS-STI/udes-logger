@@ -7,6 +7,7 @@ var _pino2 = _interopRequireDefault(_pino);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var udesLogger = (0, _pino2.default)({
+  enabled: !process.env.NOLOG,
   prettyPrint: {
     forceColor: true
   }
