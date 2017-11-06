@@ -1,6 +1,7 @@
 import pino from 'pino'
 
 const udesLogger = pino({
+  enabled: !process.env.NOLOG,
   prettyPrint: {
     forceColor: true,
   },
