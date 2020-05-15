@@ -5,7 +5,9 @@
   "main": "distribution/index.js",
   "scripts": {
     "build": "babel ./src --out-dir distribution --ignore '**/*Test.js'",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -14,7 +16,8 @@
   "author": "JF Belisle <jfbelisle89@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "pino": "^4.9.0"
+    "pino": "^4.9.0",
+    "snyk": "^1.321.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -24,5 +27,6 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "eslint-config-udes": "^0.1.6"
-  }
+  },
+  "snyk": true
 }
