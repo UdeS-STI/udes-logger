@@ -14,7 +14,7 @@
   "author": "JF Belisle <jfbelisle89@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "pino": "^4.9.0"
+    "pino": "^4.17.6"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
